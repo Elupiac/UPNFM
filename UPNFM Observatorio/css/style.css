@@ -1,0 +1,111 @@
+:root{
+	--menu-hover:#FE8F01;
+	--color-general:#e0e0e0;
+	--color-titulos:#282d33;
+	--color-iconos: #e0e0e0;
+	--color-checks:#53c3c9;
+	--color-fondo:#f7f7f7;
+}
+body{
+	font-size: 14px;
+}
+header{
+	background-color: #FFF;
+	padding: 5px 0;
+	border-bottom:1px solid #eee;
+	margin-bottom:10px;
+}
+footer{
+	background-color: #333333;
+	color: #bababa;
+	padding: 15px 0;
+	text-align: center;
+}
+.welcome{
+	padding-top: 20px;
+}
+.titulo{
+	font-family: 'Catamaran', sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+.subtext{
+	font-family: 'Catamaran', sans-serif;
+	text-align: center;
+	color:#B4B4B4;
+}
+.features{
+	padding:60px;
+	background-color:#FAF9FA;
+		color:var(--color-fondo);
+}
+.servicios{
+	font-family: 'Catamaran', sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+.descripcion{
+	font-family: 'Catamaran', sans-serif;
+	text-align: center;
+	color:#B4B4B4;
+}
+.la-envelope-open{
+	font-size: 150px;
+	color:var(--color-iconos);
+}
+.la-mobile{
+	font-size: 150px;
+	color:var(--color-iconos);
+}
+.la-cloud-download-alt{
+	font-size: 150px;
+	color:var(--color-iconos);
+}
+.la-check {
+	color:var(--color-checks);
+	font-size: 40px;
+	font-weight: 600px;
+	padding: 50px;
+	}
+.cta{
+	background-image:url("../img/using-touchscreen.jpg");
+	background-position: center;
+	background-color: rgba(0,0,0,0.58);
+	background-blend-mode: multiply;
+	background-size: cover;
+	padding: 10% 0;
+	color: #FFFFFF;
+	
+}
+.overlay-img{
+	font-family: 'Catamaran', sans-serif;
+	text-align: left;
+	font-size: 70px;
+	font-weight: 200px;
+}
+.desc{
+	font-family: 'Catamaran', sans-serif;
+	text-align: left;
+	font-weight: 20px;
+	font-size: 25px;
+}
+#column1{
+	text-align: left;
+}
+.btn-light{
+	text-align: left;
+	border-radius: 50px;
+	padding: 15px 40px;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	border: 0;
+	
+}
+.la-angle-right{
+	font-size: 10px;
+	}
+.clients{
+	padding: 60px;
+	color:var(--color-fondo);
+}
